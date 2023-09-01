@@ -1,8 +1,8 @@
 import "bootstrap/dist/js/bootstrap.min.js";
 import "./styles/index.scss";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import { Layout } from "./layout";
-import { Index } from "./routes";
+import { Layout } from "./Layout";
+import { Index } from "./routes/Index";
 import { ROUTES } from "./constants/ROUTES";
 
 export const App = () => {
